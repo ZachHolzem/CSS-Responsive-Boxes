@@ -1,3 +1,50 @@
 body {
-  background: blanchedalmond;
+  background:palegoldenrod;
+  text-align:center;
+  font-size:xx-large;
 }
+* {
+  border:1px solid teal;
+}
+.container {
+  display:flex ;
+  flex-direction:column;
+  min-height:100vh;
+  justify-content: space-between;
+}
+
+.a {
+background-color:gold;
+height:15vh;
+}
+
+.b {
+  background-color:green;
+  height:70vh;
+}
+
+.c {
+  background-color:white;
+  height:15vh;
+}
+
+@media (min-width:1000px) {
+  .container {
+    flex-direction:row;
+    flex-wrap:wrap;
+  }
+  .a {
+    width:100%;
+  }
+  .b {
+    width:65vw;
+    height:70vw;
+  }
+  .c {
+    width:30vw;
+    height:70vw;
+  }
+}
+
+     
+  

@@ -1,3 +1,35 @@
 body {
   background: papayawhip;
 }
+ * {
+  border:1px solid black;
+ }
+
+ .container {
+  height:100vh;
+  display:flex;
+  justify-content:space-around;
+  text-align:center;
+  font-size:xx-large;
+  flex-wrap:wrap;
+ }
+
+ .a{
+  width:100vw;
+  height:15vh;
+ }
+
+ .b {
+  width:100vw;
+  height:40vh;
+ }
+
+ .c,.d,.e {
+  width:30vw;
+  height:15vh;
+ }
+
+ .f {
+  width:100vw;
+  height:15vw;
+ }

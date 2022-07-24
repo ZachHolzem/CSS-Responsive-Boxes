@@ -1,3 +1,41 @@
 body {
   background: peachpuff;
 }
+* {
+  border:1px solid black;
+}
+
+.container {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  text-align:center;
+  font-size:xx-large;
+  height:100vh;
+}
+
+.a {
+  width:100%;
+  height:20vh;
+}
+ .b,.c,.d {
+  width:31vw;
+  height:20vh;
+ }
+
+ .e,.f,.g {
+  width:31vw;
+  height:20vh;
+ }
+ 
+ .h {
+  width:100%;
+  height:40vh;
+ }
+
+ @media (min-width: 800px){
+  .a{
+    height:40vh;
+  }
+
+ }
